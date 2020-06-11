@@ -8,7 +8,7 @@ namespace RecursiveFunction
         {
             if(num == 0)
             {
-                return 0;
+                return 0;       ///early exit
             }
             else
             {
