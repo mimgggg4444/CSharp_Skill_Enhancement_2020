@@ -17,6 +17,7 @@ namespace RandomShuffling
             for(int i = numbers.Length - 1; i > 0; i--)     //뒤에서 앞으로 반복문을 도는 방법(첫번째 숫자는 방문하지 않는다.)
             {
                 int j = random.Next(0, i);                  // 0 ~ i 사이의 난수를 생성한다.(당연히 i는 포함이 아님)
+                
                 int temp = numbers[j];          //
                 numbers[j] = numbers[i];        //
                 numbers[i] = temp;              //배열 속에서 두 요소 교환하는 방법, 임시 지역변수를 활용한 식이다.
