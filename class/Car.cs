@@ -11,22 +11,13 @@ namespace class1
         public float Gas;       //자동으로 0이 대입됨
         public string Owner;
 
-        public string GetOwner()
-        {
-            return Owner;
-        }
-        public void SetOwner(string owner)
+        public Car(string owner)
         {
             Owner = owner;
         }
-        public float GetGas()
-        {
-            return Gas;
-        }
-        public void FillUp(float gas)
-        {
-            Gas += gas;
-        }
+
+
+
         public void Move()
         {
             Gas -= 0.5f;
