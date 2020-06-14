@@ -9,9 +9,8 @@ namespace classPractice
         static void Main(string[] args)
         {
 
-            Car car = new Car();
-            car.Owner = "Kims";
-            Console.WriteLine(car);
+            Car car1 = new Car();
+            Car car2 = new Car();
 
         }
     }
