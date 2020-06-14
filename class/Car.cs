@@ -43,7 +43,10 @@ namespace class1
             Console.WriteLine($"(Total move: {mKillometersTravelled}km)");
         }
 
-
+        public void Honk()
+        {
+            Console.WriteLine("Honk! Honk!");
+        }
 
         private void reduceGas(float consumedGas)
         {

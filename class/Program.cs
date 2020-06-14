@@ -11,8 +11,12 @@ namespace classPractice
         {
 
 
-            Car car = new Car();
-            car.mGas = 
+
+            Car mycar = new Car(Car.EGasType.Diesel);
+            mycar.Owner = "Kim";
+            mycar.FillUp(50.0f);
+            mycar.Move();
+            mycar.Honk()
 
         }
     }
