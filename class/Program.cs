@@ -1,5 +1,6 @@
 ﻿using class1;
 using System;
+using System.Net.Http.Headers;
 using System.Xml.Serialization;
 
 namespace classPractice
@@ -9,10 +10,9 @@ namespace classPractice
         static void Main(string[] args)
         {
 
-            Car myCar = new Car("kim");
-            myCar.Gas = 50.0f;
-            myCar.Move();
-            myCar.Honk();
+
+            Car car = new Car();
+            car.mGas = 
 
         }
     }

@@ -7,28 +7,48 @@ namespace class1
 {
     public class Car
     {
-        public int Price = 50000;
-        public float Gas;       //자동으로 0이 대입됨
+
+        public enum EGasType
+        {
+            Gasoline,
+            Diesel
+        };
+
         public string Owner;
 
-        public Car(string owner)
+        private float mGas;
+        private EGasType mGasType;
+        private int mPrice = 500000;
+        private float mKillometersTravelled;
+
+
+
+        public Car(EGasType gasType)
         {
-            Owner = owner;
+            mGasType = gasType;
         }
 
-
-
+        public void FillUp(float gas)
+        {
+            mGas += gas;
+        }
+        
         public void Move()
         {
-            Gas -= 0.5f;
+            reduceGas(0.5f);
+            mKillometersTravelled += 0.3f;
 
-            Console.WriteLine($"Move!\n(Gas: {Gas}L left)");
+            Console.WriteLine("Move!");
+            Console.WriteLine($"(Gas: {mGas}L left)");
+            Console.WriteLine($"(Total move: {mKillometersTravelled}km)");
         }
-        public void Honk()
+
+
+
+        private void reduceGas(float consumedGas)
         {
-            Console.WriteLine("Hock~ Hock~");
+            mGas -= consumedGas;
         }
-    
 
     }
 
