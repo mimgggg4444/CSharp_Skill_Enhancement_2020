@@ -23,9 +23,28 @@ namespace class1
 
 
 
-        public Car(EGasType gasType)
+        public Car(EGasType gasType, int price)
         {
             mGasType = gasType;
+            SetPrice(price);
+        }
+
+        public void SetPrice(int price)
+        {
+            if(price >= 500000)
+            {
+                mPrice = price;
+            }
+        }
+
+        public int GetPrice()
+        {
+            return mPrice;
+        }
+
+        public float GetGas()
+        {
+            return mGas;
         }
 
         public void FillUp(float gas)

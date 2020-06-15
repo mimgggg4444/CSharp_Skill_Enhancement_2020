@@ -12,11 +12,19 @@ namespace classPractice
 
 
 
-            Car mycar = new Car(Car.EGasType.Diesel);
-            mycar.Owner = "Kim";
-            mycar.FillUp(50.0f);
-            mycar.Move();
-            mycar.Honk()
+            Car mycar = new Car(Car.EGasType.Diesel, 1000000);
+            int newPrice;
+            Console.WriteLine("Hello?");
+            int.TryParse(Console.ReadLine(), out newPrice);
+            mycar.SetPrice(newPrice);
+
+            float remainingFulel = mycar.GetGas();
+            Console.WriteLine($"Remaining fuel: {remainingFulel}L");
+
+
+
+
+            // float remaingFuel = mycar.mGas; Due to the level of protection, the fuel level is unknown.
 
         }
     }
