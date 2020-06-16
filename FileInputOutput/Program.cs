@@ -17,6 +17,17 @@ namespace FileInputOutput
             }
 
 
+            File.WriteAllBytes(@"", bytes1);
+            byte[] bytes = File.ReadAllBytes();
+
+            string path = @"c:\unknown.txt";
+            string[] lines;
+            if(File.Exists(path))
+            {
+                lines = File.ReadAllLines(path);
+            }
+
+
         }
     }
 }
