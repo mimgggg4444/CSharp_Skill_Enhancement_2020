@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Reflection.Metadata;
 
 namespace 이거시_예외당
 {
@@ -20,6 +21,16 @@ namespace 이거시_예외당
             catch(FileNotFoundException e)
             {
                 Console.Error.WriteLine($"file not found: {e}");
+                return;
+            }
+            catch(ArgumentNullException e)
+            {
+                Console.Error.WriteLine($"null argument: {e.Message}");
+                return;
+            }
+            catch(Exception e)
+            {
+                Console.Error.WriteLine($"exception: {e}");
                 return;
             }
 
