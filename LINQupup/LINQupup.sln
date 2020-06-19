@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQupup", "LINQupup.csproj", "{40EA9B87-B7A9-4E75-BEDD-1C91C7AD217F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EA9B87-B7A9-4E75-BEDD-1C91C7AD217F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EA9B87-B7A9-4E75-BEDD-1C91C7AD217F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EA9B87-B7A9-4E75-BEDD-1C91C7AD217F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EA9B87-B7A9-4E75-BEDD-1C91C7AD217F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB233A13-7A5C-409E-86F3-905B9615D6B0}
+	EndGlobalSection
+EndGlobal
