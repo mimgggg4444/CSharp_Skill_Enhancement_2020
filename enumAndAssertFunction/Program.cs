@@ -5,12 +5,12 @@ namespace enumAndAssertFunction
     class Program
     {
         
-        static void Move(int direction, ref int x, ref int y)
-        {
         const int NORTH = 1;
         const int SOUTH = 2;
         const int EAST = 3;
         const int WEST = 4;
+        static void Move(int direction, ref int x, ref int y)
+        {
 
             switch (direction)
             {
