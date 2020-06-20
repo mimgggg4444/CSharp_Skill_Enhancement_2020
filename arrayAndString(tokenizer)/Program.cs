@@ -78,6 +78,13 @@ namespace arrayOfArrays
             char[] delimitersTest = { ',', ':' };
             string[] tokensText = textText.Split(delimitersTest, StringSplitOptions.RemoveEmptyEntries);
             Console.WriteLine(tokensText);
+
+
+            string firstName = "     a";
+            string lastName = "Kim    ";
+            string trimmendFirstName = firstName.Trim();
+            string trimmendLastName = lastName.TrimEnd();
+            // TrimStart() or TrimEnd()
         }
     }
 
