@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Assert
 {
@@ -25,8 +26,8 @@ namespace Assert
                 case EMenu.Mune4:
                     return 19999;
                 default:
-                    Console.WriteLine($"Worng menu: {menu}");
-                    return -1;  //givw money back
+                    Debug.Assert(false, "wrong menu number");
+                    return -1;
             }
         }
 
