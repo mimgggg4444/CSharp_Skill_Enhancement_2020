@@ -6,6 +6,8 @@ namespace Function
     {
         static void Main(string[] args)
         {
+            #region a 
+            /*
             double[] scores = { 100.0, 35.4, 75.4, 54.6, 99.5 };
             double average = Average(Sum(scores), scores.Length);
             PrintAverage(average, scores.Length);
@@ -31,9 +33,33 @@ namespace Function
                     PrintAverage(average, scores.Length);
                 }
             }
+            */
+            #endregion
+            /*
+            double num = double.Parse(Console.ReadLine());
+            Square(num);
+            Console.WriteLine($"Result: {num}");
+            */
+
+            double number = 5;
+            Console.WriteLine(Square(number));
 
         }
-        
+
+        static int AddNumbers(int num1, int num2)
+        {
+            int sum = num1 + num2;
+            return sum;
+        }
+
+        static double Square(double number)
+        {
+            number *= number;
+            return number;
+            // return result;  //띠바..
+        }
+
+
         static double Sum(double[]scores)
         {
             double sum = 0.0;
