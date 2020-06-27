@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitFlag1", "bitFlag1.csproj", "{6A200FF4-53DF-4F23-836F-549AD2BFE3EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A200FF4-53DF-4F23-836F-549AD2BFE3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A200FF4-53DF-4F23-836F-549AD2BFE3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A200FF4-53DF-4F23-836F-549AD2BFE3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A200FF4-53DF-4F23-836F-549AD2BFE3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E9F7F62-53B8-47B1-97A7-A2A045873291}
+	EndGlobalSection
+EndGlobal
