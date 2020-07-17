@@ -1,0 +1,13 @@
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.exe
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.deps.json
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.runtimeconfig.json
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.runtimeconfig.dev.json
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.dll
+C:\Users\a\Desktop\ValueTypeVsReferenceType\bin\Debug\netcoreapp3.1\ValueTypeVsReferenceType.pdb
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.csprojAssemblyReference.cache
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.AssemblyInfo.cs
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.dll
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.pdb
+C:\Users\a\Desktop\ValueTypeVsReferenceType\obj\Debug\netcoreapp3.1\ValueTypeVsReferenceType.genruntimeconfig.cache
