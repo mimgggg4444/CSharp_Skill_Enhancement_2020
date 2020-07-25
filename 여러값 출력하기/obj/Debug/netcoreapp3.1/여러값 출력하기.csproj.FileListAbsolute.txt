@@ -1,0 +1,13 @@
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.exe
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.deps.json
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.runtimeconfig.json
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.runtimeconfig.dev.json
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.dll
+C:\Users\a\Desktop\여러값 출력하기\bin\Debug\netcoreapp3.1\여러값 출력하기.pdb
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.csprojAssemblyReference.cache
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.AssemblyInfo.cs
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.dll
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.pdb
+C:\Users\a\Desktop\여러값 출력하기\obj\Debug\netcoreapp3.1\여러값 출력하기.genruntimeconfig.cache
