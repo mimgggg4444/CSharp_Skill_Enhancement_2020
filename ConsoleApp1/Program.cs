@@ -6,32 +6,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.Write("User count: ");
-            int length = int.Parse(Console.ReadLine());
-            int[] ages = new int[length];
-            float[] heights = new float[length];
+            int num1 = 1234567890;
+            float num2 = num1;
 
-            int totalAges = 0;
-            float totalHeights = 0.0f;
-            for (int i = 0; i < length; ++i)
-            {
-                Console.Write($"Enter user {i}'s age: ");
-                ages[i] = int.Parse(Console.ReadLine());
-                totalAges += ages[i];
+            Console.WriteLine(num1 - (int)num2);
 
-                Console.Write($"Enter user {i}'s height(cm): ");
-                heights[i] = float.Parse(Console.ReadLine());
-                totalHeights += heights[i];
-            }
+            double num3 = 3.7;
+            int num4 = 10;
 
-            Console.WriteLine("Print result ----- ");
-            for (int i = 0; i < length; ++i)
-            {
-                Console.WriteLine($"User{i}: Age({ages[i]}), Height({heights[i]}cm)");
-            }
+            Console.WriteLine(num3 + num4);
 
-            Console.WriteLine($"Total ages: {totalAges}");
-            Console.WriteLine($"Total heights: {totalHeights}");
+            int in1 = -1;
+            uint inttouint = (uint)in1;
+            Console.WriteLine("int to uint: " + inttouint);
+
         }
     }
 }
