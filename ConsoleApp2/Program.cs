@@ -6,56 +6,46 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            const int MONTHS_IN_A_YEAR = 12;
-            int[] daysInEachMonth = new int[MONTHS_IN_A_YEAR] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+            int num1 = 1;
+            int result1 = num1 << 1;
+            Console.WriteLine("result1: " + result1);
 
-            string[][] calendar = new string[MONTHS_IN_A_YEAR][];
+            int result22 = num1 << 2;
+            Console.WriteLine("result2: " + result22);
 
-            for(int i = 0; i < MONTHS_IN_A_YEAR; i++)
-            {
-                calendar[i] = new string[daysInEachMonth[i]]; //이게 모징?
-                // Console.WriteLine(calendar[i]);
-            }
+            int result33 = result22 >> 3;
+            Console.WriteLine("result3: " + result33);
 
-            while(true)
-            {
-                Console.Write("Enter the Month (1 - 12): ");
-                string monthString = Console.ReadLine();
-                int month = int.Parse(monthString);
+            const int BIT_FLAG_SIZE = 8;
 
-                if(0 >= month || month > 12)
-                {
-                    Console.WriteLine("Invalid range of month. Terminating program");
-                    break;
-                }
+            byte bitFlags = 0;
+            byte mask1 = 1 << 2;
+            bitFlags |= mask1;
 
-                Console.Write($"Enter the Day (1 - {calendar[month - 1].Length}): ");
-                string dayString = Console.ReadLine();
-                int day = int.Parse(dayString);
+            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
 
-                if(0 >= day || day < calendar[month - 1].Length)
-                {
-                    Console.WriteLine("Enter your schedule: ");
-                    string schedule = Console.ReadLine();
-                    calendar[month - 1][day - 1] = schedule;
+            byte mask3 = (1 << 3) | (1 << 5);
 
-                    Console.WriteLine("-----------------");
+            bitFlags |= mask3;
 
-                    for(int i = 0; i < MONTHS_IN_A_YEAR; i++)
-                    {
-                        for(int j = 0; j < calendar[i].Length; j++)
-                        {
-                            if (!string.IsNullOrEmpty(calendar[i][j]))
-                            {
-                                Console.WriteLine($"{i + 1} / {j + 1}: {calendar[i][j]}");
-                            }
-                        }
-                    }
-                    Console.WriteLine("-----------------");
-                }
-            
-            }
+            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
 
+            bitFlags &= (byte)~mask1;
+
+            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
+
+            bitFlags &= 0;
+            Console.WriteLine("bitFlags: " + Convert.ToString(bitFlags, 2).PadLeft(BIT_FLAG_SIZE, '0'));
+
+            char char1 = 'A';
+            int resultl = char1 | ' ';
+
+            Console.WriteLine("result1: " + (char)result1);
+
+            char char2 = 'a';
+            int result2 = char2 & '_';
+
+            Console.WriteLine("result2: " + (char)result2);
         }
     }
 }
