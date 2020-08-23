@@ -1,0 +1,13 @@
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.exe
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.deps.json
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.runtimeconfig.json
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.runtimeconfig.dev.json
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.dll
+C:\Users\a\Desktop\깃\StaticMethod\bin\Debug\netcoreapp3.1\StaticMethod.pdb
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.csprojAssemblyReference.cache
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.AssemblyInfoInputs.cache
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.AssemblyInfo.cs
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.dll
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.pdb
+C:\Users\a\Desktop\깃\StaticMethod\obj\Debug\netcoreapp3.1\StaticMethod.genruntimeconfig.cache
